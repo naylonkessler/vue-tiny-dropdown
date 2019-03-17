@@ -1,0 +1,40 @@
+/**
+ * Base struture styles file of TinyDropdown.
+ *
+ * @author Naylon Kessler de Aquino <naylon.kessler@gmail.com>
+ */
+
+.dropdown {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.dropdown__trigger {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown__trigger-icon {
+    box-shadow: 2px 2px 0 0 #000;
+    content: '';
+    display: block;
+    height: 12px;
+    margin-left: 1.5rem;
+    margin-top: -10px;
+    transform: rotate(45deg);
+    width: 12px;
+}
+
+.dropdown__panel {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+}
+
+.dropdown-option-content {
+    align-items: center;
+    display: flex;
+}

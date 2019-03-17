@@ -35,8 +35,11 @@
 }
 
 .dropdown__option {
+    background-color: transparent;
+    border: 0;
     color: inherit;
     padding: 0.5rem 1rem;
+    text-align: left;
     text-decoration: none;
     transition: all 0.3s ease;
 

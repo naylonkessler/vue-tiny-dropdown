@@ -41,14 +41,6 @@
                 >
                     <TinyOptionContent :option="nullOptionLabel" />
                 </a>
-                <a
-                    @click.prevent="select(option)"
-                    v-for="option of options"
-                    class="dropdown__option"
-                    href="#"
-                >
-                    <TinyOptionContent :option="option" />
-                </a>
                 <template v-for="option of options">
                     <a
                         v-if="!isDivider(option)"
